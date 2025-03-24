@@ -51,9 +51,9 @@ This project focuses on AI-based image classification to detect the age group of
    python server.py
    ```
 4. **Run the Client**:
-  ```bash
-   npm start
-   ```
+   ```bash
+    npm start
+    ```
 
    ## homePage 
 ![alt text](image-1.png)
