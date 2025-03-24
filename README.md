@@ -52,7 +52,7 @@ This project focuses on AI-based image classification to detect the age group of
    ```
 4. **Run the Client**:
   ```bash
-   npm start
+    npm start
    ```
 
    ## homePage 
