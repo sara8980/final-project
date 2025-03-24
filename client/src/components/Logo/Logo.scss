@@ -1,0 +1,12 @@
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%; /* או גובה מותאם לצורך הקומפוננטה */
+  }
+  
+  .centered-image {
+    max-width: 100%; /* להבטיח שהתמונה תשאר במקוריות גם עם רזולוציות גבוהות */
+    max-height: 80vh; /* כדי שלא תהיה תמונה גדולה מידי */
+  }
+  

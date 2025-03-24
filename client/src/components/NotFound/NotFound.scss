@@ -1,0 +1,31 @@
+.not-found {
+    background-image: url('../../images/‏‏לכידה.PNG');
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    margin-top: 100px;
+    position: relative;
+
+
+h1 {
+    font-size: 3em;
+    color: #ff1493;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+p {
+    font-size: 1.2em;
+    color: #f7f7f7;
+    margin-top: 20px;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+
+    &:hover {
+        color: #0056b3;
+    }
+}}
