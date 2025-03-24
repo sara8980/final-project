@@ -1,82 +1,4 @@
-# bina-project-
-## homePage 
-![alt text](image-1.png)
-## about
-![alt text](image-2.png)
-## uplode
-![alt text](image.png)
-## result
-![alt text](image-3.png)
-README - פרויקט בינה מלאכותית לסיווג תמונה לפי שכבת גיל
-תיאור הפרויקט
-פרויקט זה הינו מערכת בינה מלאכותית עצמאית שנועדה לסווג אנשים בתמונות לפי שכבת גילם. המערכת פותחה באמצעות טכנולוגיות מתקדמות של בינה מלאכותית ולמידת מכונה, תוך שימוש באלגוריתמים לעיבוד תמונה ורשתות נוירונים עמוקות. מטרת המערכת היא לזהות ולהעריך את גילם של אנשים בתמונות בצורה אוטומטית ומדויקת.
 
-טכנולוגיות בשימוש
-צד שרת: Python
-צד לקוח: React
-כלים נוספים:
-TensorFlow  (ללמידת מכונה ורשתות נוירונים עמוקות)
-OpenCV (לעיבוד תמונה)
-Flask (כשרת API)
-Numpy / Pandas (לעיבוד נתונים)
-מטרת הפרויקט
-המערכת מתמקדת בהערכת גילם של אנשים בתמונות באופן אוטומטי, תוך שימוש בשיטות בינה מלאכותית שמבוססות על עיבוד תמונה וזיהוי תכונות של הפנים שמסייעות לקבוע את גילם. המערכת מציעה פתרון המאפשר להשתמש בה להערכות גיל באפליקציות שונות, כמו אבטחה, רפואה, פרסום ועוד.
-
-שלבי הפיתוח
-איסוף וטרינינג של נתונים:
-
-איסוף תמונות עם גיל מאפיינים ידועים.
-הכנה ועיבוד התמונות לשימוש במודלים.
-פיתוח המודל:
-
-פיתוח רשת נוירונית עמוקה לצורך סיווג גיל.
-שיפור ביצועים באמצעות אופטימיזציה של המודל ושיטות למידת מכונה מתקדמות.
-צד השרת:
-
-פיתוח ממשק API ב-Python עם Flask שמטפל בבקשות מצד הלקוח ומבצע חישובים באמצעות המודל.
-צד הלקוח:
-
-פיתוח ממשק משתמש ב-React שמציג את התמונה, את גיל המנוחס ומספק חווית משתמש נוחה.
-הטמעה והפעלה:
-
-הטמעה של המערכת בצורה אופטימלית הן בצד השרת והן בצד הלקוח.
-יכולות המערכת
-סיווג אוטומטי של גיל האדם בתמונה.
-יכולת ללמוד ולהתאים את המודל על ידי נתונים חדשים.
-ממשק משתמש אינטואיטיבי וידידותי.
-איך להפעיל את המערכת
-התקנת דרישות:
-
-התקן את הדרישות המומלצות:
-Copy code
-pip install -r requirements.txt
-הפעלת השרת:
-
-הרץ את השרת המקומי:
-Copy code
-python app.py
-הפעלת הלקוח:
-
-הרץ את האפליקציה בצד הלקוח:
-sql
-Copy code
-npm start
-העלאת תמונה:
-
-העלה תמונה דרך הממשק הגרפי של הלקוח, והמנוע יעבד את התמונה ויציג את גיל האדם.
-ייחודיות הפרויקט
-המערכת פותחה באופן עצמאי תוך הקפדה על איכות קוד גבוהה ("Clean Code").
-שמירה על לוחות זמנים במהלך כל שלב בפרויקט.
-שיפור מתמיד של המודל באמצעות טכניקות למידת מכונה מתקדמות.
-תוצאה
-המערכת מציגה דיוק גבוה בסיווג גיל של אנשים בתמונות, עם דגש על שימוש בטכנולוגיות המתקדמות ביותר והקפדה על עקרונות פיתוח נכון.
-
-תרומות
-פיתוח האלגוריתם המתקדם לסיווג גיל.
-פיתוח ממשק משתמש אינטואיטיבי ב-React.
-אופטימיזציה ושיפור ביצועים של המערכת.
-צוות הפיתוח
-פיתוח פרויקט עצמאי של [שמך]
 # AI Image Classification Project - Age Group Classification
 
 ## Project Overview
@@ -87,8 +9,15 @@ This project focuses on AI-based image classification to detect the age group of
 
 - **Backend (Server-side)**: Python
   - Python was used for implementing image classification algorithms, including image preprocessing, training deep neural networks, and setting up the backend server logic.
+  - Flask: Flask was used to build the RESTful API that communicates with the frontend, handling image uploads and processing them through the AI model.
+  - NumPy: NumPy is used for handling numerical computations efficiently, especially in image processing and model training.
+  - TensorFlow/PyTorch: These deep learning frameworks were used for developing and training convolutional neural networks (CNNs) for the image classification task.
+  - OpenCV: OpenCV is used for preprocessing the images before they are passed into the model, performing operations like resizing, normalizing, and enhancing images for better accuracy.
 - **Frontend (Client-side)**: React
   - React was used for creating an interactive and user-friendly interface, allowing users to upload images and view results from the classification process.
+  - TypeScript: TypeScript was used to enhance code quality and maintainability by providing strong typing for JavaScript, which helped reduce bugs and improve developer productivity.
+  - Axios: Axios is used to handle HTTP requests between the React frontend and Flask backend, making it easy to upload images and receive the classification results.
+  - SCSS: SCSS was used for styling the frontend, creating a clean and responsive design that works well on both desktop and mobile devices.
 
 ## Key Features
 
@@ -109,13 +38,31 @@ This project focuses on AI-based image classification to detect the age group of
 2. **Install Dependencies**:
 - **For the server-side (Python)**:
     cd server
+    ```bash
     pip install -r requirements.txt
+    ```
 - **For the client-side (React)**
    cd client
+    ```bash
    npm install
+   ```
 3. **Run the Server**:
+   ```bash
    python server.py
+   ```
 4. **Run the Client**:
+  ```bash
    npm start
+   ```
+
+   ## homePage 
+![alt text](image-1.png)
+## about
+![alt text](image-2.png)
+## uplode
+![alt text](image.png)
+## result
+![alt text](image-3.png)
+
 
 
