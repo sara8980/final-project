@@ -1,22 +1,6 @@
 import axios from'axios'
 export default new class FileService {
-    
-    BASE_URL="https://jsonplaceholder.typicode.com/users";
-   
-    getListApi(){
-        return axios.get(`${this.BASE_URL}`);
-    }
-
-    inserNewApi(api:any){
-        return axios.post(`${this.BASE_URL}/entries`,api)
-    }
-
-    deleteApi(apiId:number){
-        return axios.delete(`${this.BASE_URL}/entries/${apiId}`)
-    }
-
-
-    UploadFile(file:any,url:string=''){
+   UploadFile(file:any,url:string=''){
         //העברת רשימת קבצים לשרת
         //עי יצירת אובייקט FormData -js object
         let formFile=new FormData();

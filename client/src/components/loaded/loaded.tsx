@@ -7,7 +7,7 @@ interface LoadedProps {
 const Loaded: FC<LoadedProps> = (props: LoadedProps) => (
   <div className=" row  d-flex align-items-center   m-5">
     <div className="col-sm-12 ">
-      <div className=" spinner-border m-5" role="status" aria-hidden="true"></div>
+      <div className="spinner-border m-5" role="status" aria-hidden="true"></div>
       <br></br>
       <strong>{props.title}</strong>
     </div>
